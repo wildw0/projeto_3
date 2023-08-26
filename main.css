@@ -1,0 +1,77 @@
+body{
+    font-family: 'Lena', sans-serif;
+    background-color: #feefcf;
+    color: #be3e09;
+    list-style: none;
+    
+    
+}
+
+.container {
+    background-color: #feefcf; 
+}
+
+.container .btn {
+    background-color: #be3e09;
+    color: #feefcf;
+}
+
+.container a {
+    display: inline;
+    text-decoration: none;  
+    color: #be3e09;
+}
+
+.btnLogin button {
+    display: flex-block;
+    background-color: #feefcf;
+    color: #be3e09;
+    border: 1px solid #be3e09;
+}
+
+hr.solid {
+    border-top: 3px solid #be3e09;
+}
+
+.container #modelos {
+    background-color: rgba(190,62,9,0.2);
+    color: #be3e09;
+    
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.card {
+    background-color: rgba(190,62,9,0.2);
+    color: #be3e09;
+    border: 2px solid #be3e09;
+}
+
+@media(max-width:767px) {
+    #logintablet  {
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .rounded  {
+        font-size: small;
+    }
+
+    #logintablet h2 {
+        margin-bottom: -20px;
+    }
+
+    #login {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) {
+#logintablet  {
+    display: none;
+    }
+}
